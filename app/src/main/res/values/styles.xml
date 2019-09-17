@@ -12,7 +12,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:background">@drawable/bgr_green_button</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/choose_number_keyboard_key_text</item>
         <item name="android:fontFamily">@font/roboto_medium</item>
     </style>
@@ -20,6 +20,18 @@
         <item name="android:textSize">@dimen/choose_number_phone_status_height</item>
     </style>
     <style name="AppTheme.Splash" parent="@style/Theme.AppCompat.NoActionBar">
+    </style>
+    <style name="AppTheme.Main" parent="@style/Theme.AppCompat.NoActionBar">
+    </style>
+    <style name="Toolbar" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="Toolbar.TitleText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
 

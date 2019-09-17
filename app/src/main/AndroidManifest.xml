@@ -12,7 +12,10 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name="com.myapp.legalhelp.app.ui.main.MainActivity">
+        <activity android:name="com.myapp.legalhelp.app.ui.main.MainActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.Main">
+
         </activity>
         <activity android:name="com.myapp.legalhelp.app.ui.splash.SplashActivity"
                   android:theme="@style/AppTheme.Splash"

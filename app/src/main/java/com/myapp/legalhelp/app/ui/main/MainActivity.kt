@@ -5,12 +5,13 @@ import android.content.Intent
 import android.os.Bundle
 import com.myapp.legalhelp.R
 import com.myapp.legalhelp.app.base.BaseActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : BaseActivity<MainViewModel>(R.layout.activity_main, MainViewModel::class) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setupToolbar(toolbar)
+        setupToolbar(toolbar, getString(R.string.main_page), -1, null)
     }
 
     companion object {

@@ -6,4 +6,5 @@
     <string name="error_network_error">Ошибка интернет-соединения. Попробуйте позже.</string>
     <string name="error_server_service_unavailable">Сервис временно недоступен. Попробуйте немного позже</string>
     <string name="TODO">TO+DO</string>
+    <string name="main_page">Главная страница</string>
 </resources>
