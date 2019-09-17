@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="choose_number_phone_status_height">68dp</dimen>
+    <dimen name="choose_number_keyboard_key_text">28sp</dimen>
+    <dimen name="choose_number_phone_number_text">32sp</dimen>
+</resources>

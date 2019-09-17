@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Legal Help</string>
+    <string name="error_server_unknown">Что-то пошло не так. Попробуй позже</string>
+    <string name="error_no_internet">Проблема с интернетом, проверьте подключение</string>
+    <string name="error_server_timeout">Слишком долго, попробуй заново</string>
+    <string name="error_network_error">Ошибка интернет-соединения. Попробуйте позже.</string>
+    <string name="error_server_service_unavailable">Сервис временно недоступен. Попробуйте немного позже</string>
+    <string name="TODO">TO+DO</string>
+</resources>
